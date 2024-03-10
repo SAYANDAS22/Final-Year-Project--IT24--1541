@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 
 
 # Load the CSV file
-data = pd.read_csv('property_data.csv')
+data = pd.read_csv('synthetic_property_loss_data.csv')
 
 # Separate the features (X) and target variable (y)
 X = data.drop('property_loss', axis=1)
